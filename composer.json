@@ -1,0 +1,14 @@
+{
+	"name" : "tbtbt/codeigniter-phptal-parser",
+	"description" : "PHPTAL parser for CodeIgniter framework.",
+	"license" : "MIT",
+	"require" : {
+		"codeigniter/codeigniter" : "dev-master",
+		"phptal/phptal" : "dev-master"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"PhptalParser\\" : "src/"
+		}
+	}
+}
